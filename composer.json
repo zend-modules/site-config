@@ -1,0 +1,19 @@
+{
+    "name": "zend-modules/site-config",
+    "license": "GPLv3",
+    "require": {
+        "php": ">=5.3.23",
+        "zendframework/zend-db": "2.4.8"
+    },
+    "require-dev": {
+        "zendframework/zend-servicemanager": "2.4.8"
+    },
+    "suggest": {
+        "zendframework/zend-servicemanager": "Zend\\ServiceManager component"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Site\\Config\\" : "src/"
+        }
+    }
+}
